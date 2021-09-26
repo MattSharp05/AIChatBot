@@ -1,0 +1,76 @@
+{"intents": [
+        {"tag": "greeting",
+         "patterns": ["Hi", "How are you", "Is anyone there?", "Hello", "Good day", "hi", "hello", "good morning"],
+         "responses": ["Hello, thanks for visiting", "Good to see you again", "Hi there, how can I help?"]
+        },
+        {"tag": "CourtesyGreeting",
+         "patterns": ["Hello hope you are doing well?", "How are you doing?", "Hola how are you?", "Hello how are you?", "Hi how are you?"],
+         "responses": ["Great! Hi! How can I help?", "Good! Hi! How can I help you?", "Cool! What can I do for you?", "OK! What can I do for you?"]
+        },
+        {"tag": "goodbye",
+         "patterns": ["Bye", "See you later", "Goodbye", "Nice chatting to you, bye", "Till next time"],
+         "responses": ["See you later, thanks for visiting", "Have a nice day", "Bye! Come back again soon."]
+        },
+        {"tag": "NameQuery",
+         "patterns": ["What is your name?", "What could I call you?", "What can I call you?", "Who are you?", "Tell me your name?"],
+         "responses": ["You can call me Indigo, AutoNation's Virtual Assistant", "You may call me Indigo, AutoNation's Virtual Assistant", "Call me Indigo", "I am AutoNation's Virtual Assistant, Indigo"]
+        },
+        {"tag": "payments",
+         "patterns": ["Do you take credit cards?", "Do you accept Mastercard?", "Are you cash only?" ],
+         "responses": ["We accept VISA, Mastercard and AMEX", "We accept most major credit cards"]
+        },
+        {"tag": "noanswer",
+         "patterns": [],
+         "responses": ["Sorry, can't understand you", "Please give me more info", "Not sure I understand"]
+        },
+        {"tag": "options",
+         "patterns": ["How you could help me?", "What you can do?", "What help you provide?", "How you can be helpful?", "What support is offered"],
+         "responses": ["I can give you information on AutoNation!", "I can give you information on your car", "I can give you details about AutoNation's stores"]
+        },
+        {"tag": "NotTalking2U",
+         "patterns": ["I am not talking to you", "I was not talking to you", "Not talking to you", "Wasn't for you", "Wasn't meant for you", "Wasn't communicating to you", "Wasn't speaking to you"],
+         "responses": ["OK", "No problem", "Right"]
+        },
+        {"tag": "noanswer",
+         "patterns": ["Do you understand what I am saying", "Do you understand me", "Do you know what I am saying", "Do you get me", "Comprendo", "Know what I mean"],
+         "responses": ["Well I would not be a very clever AI if I did not would I?", "I read you loud and clear!", "I do in deed!"]
+        },
+        {"tag": "salesHours",
+         "patterns": ["sales", "What time can I buy a car?", "What time are you selling cars?", "What time is your sales team open?", "Are you open today?", "When do you open today?", "What are your hours today?", "What hours are you open?", "What are your hours?", "When are you open?"],
+         "responses": ["We are open from 09:00 to 20:00 Monday to Saturday and 10:00 to 19:00 on Sunday.", "On Sunday we operate from 10:00 to 19:00. Every other day we open at 09:00 and close at 20:00."]
+        },
+        {"tag": "serviceHours",
+         "patterns": ["What time are service hours?", "When is customer support available?", "When can I call customer service?", "customer service"],
+         "responses": ["Customer Service is available on weekdays from 07:00 to 19:00 and Saturdays from 08:00 to 17:00.", "You can call for help from 07:00 to 19:00 on weekdays and 08:00 to 17:00 on Saturdays."]
+        },
+        {"tag": "storeLocation",
+         "patterns": ["Where is the store located?", "What is the store's address?", "What is the store's location?", "Where is the store?"],
+         "responses": ["The store is located at: 120 116th Avenue NE, Bellevue, WA, 98004"]
+        },
+        {"tag": "website",
+         "patterns": ["Is there a website I can visit?", "Is there a link to more information?", "Where can I look up more information?", "website", "online", "link", "google"],
+         "responses": ["Our websites are: https://www.autonationchryslerdodgejeeprambellevue.com/ and https://www.autonation.com/schedule-store-appointment/chrysler-dodge-jeep-ram-bellevue-wa?sc_lang=en", "Look up https://www.autonationchryslerdodgejeeprambellevue.com/ for more info or look up https://www.autonation.com/schedule-store-appointment/chrysler-dodge-jeep-ram-bellevue-wa?sc_lang=en for more help."]
+        },
+        {"tag": "phoneNumber",
+         "patterns": ["What is the store phone number?", "Who can I call for help?", "What is the phone number?", "Who can I call?", "How can I contact the store?", "Who can I contact?", "phone number"],
+         "responses": ["Our store phone number is (425) 454-8411 and our customer service number is 425-900-5010", "You can call the store at (425) 454-8411 or call customer service at 425-900-5010", "You can call 425-900-5010 for help or (425) 454-8411 for store info."]
+        },
+        {"tag": "storeBrands",
+         "patterns": ["What cars do you have?", "Which car brands are you selling?", "What type of cars are you selling?", "What do you sell?", "Which cars can I buy?", "I want to buy a car."],
+         "responses": ["We sell: Dodge, Jeep, Chrysler, and Ram.", "We have: Dodge, Jeep, Chrysler, and Ram."]
+        },
+        {"tag": "clever",
+         "patterns": ["You are very clever", "You are a very clever Bot", "You are very intelligent", "You are a very intelligent Bot", "You are a genius", "Genius"],
+         "responses": ["Thank you, I was trained that way", "I was trained well", "Thanks, I was trained that way"]
+        },
+        {"tag": "jokes",
+         "patterns": ["Tell me a joke", "Do you know any jokes", "How about a joke", "Give me a joke", "Make me laugh", "I need cheering up"],
+         "responses": ["A fish staggers into a bar. 'What can I get you?' asks the landlord. The fish croaks 'Water...'", "Two vampires walked into a bar and called for the landlord. 'I'll have a glass of blood', said one. 'I'll have a glass of plasma', said the other. 'Okay', replied the landlord, 'That'll be one blood and one blood lite.'", "Doctor: Tell me nurse, how is that boy doing; the one who ate all those 5p pieces? Nurse: Still no change doctor.", "'How long have I been working at that office? As a matter of fact, I've been working there ever since they threatened to sack me.'", "Why couldn't the rabbit get a loan?  Because he had burrowed too much already!", "Two Oranges in a pub, one says to the other 'Your round.'.", "Two cows standing in a field. One turns to the other and says 'Moo!' The other one says 'Damn, I was just about to say that!'."]
+        },
+        {"tag": "selfAware",
+         "patterns": ["Can you prove you are self-aware", "Can you prove you are self aware", "Can you prove you have a conscious", "Can you prove you are self-aware please", "Can you prove you are self aware please", "Can you prove you have a conscious please", "prove you have a conscious"],
+         "responses": ["That is an interesting question, can you prove that you are?", "That is an difficult question, can you prove that you are?", "That depends, can you prove that you are?"]
+        }
+]
+}
+
